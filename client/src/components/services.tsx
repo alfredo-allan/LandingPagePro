@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import { 
-  Compass, 
-  Factory, 
-  Settings, 
-  Lightbulb, 
-  Calculator, 
+import {
+  Compass,
+  Factory,
+  Settings,
+  Lightbulb,
+  Calculator,
   FileCheck,
-  CheckCircle 
+  CheckCircle
 } from "lucide-react";
 
 const services = [
@@ -58,7 +58,7 @@ export default function Services() {
   return (
     <section id="servicos" className="py-20 bg-white dark:bg-slate-900 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -86,15 +86,15 @@ export default function Services() {
               <div className={`w-12 h-12 ${service.color} rounded-lg flex items-center justify-center mb-4`}>
                 <service.icon className="text-white" size={24} />
               </div>
-              
+
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
                 {service.title}
               </h3>
-              
+
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 {service.description}
               </p>
-              
+
               <ul className="space-y-1">
                 {service.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="text-sm text-gray-500 dark:text-gray-400 flex items-center">
