@@ -1,0 +1,24 @@
+.
+├── client
+│   ├── index.html
+│   └── src
+│       ├── App.tsx
+│       ├── components
+│       ├── hooks
+│       ├── index.css
+│       ├── lib
+│       ├── main.tsx
+│       └── pages
+├── components.json
+├── estrutura.txt
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.ts
+├── tsconfig.json
+├── vercel.json
+├── vite.config.ts
+└── yarn.lock
+
+7 directories, 15 files
